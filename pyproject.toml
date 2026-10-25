@@ -1,0 +1,12 @@
+[design_doc_BetaMixturePrior]
+name = "phase1b-python"
+version = "0.1.0"
+description = "Design doc: a Python class-based translation of phase1b's beta-mixture posterior"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "jupyter"]
